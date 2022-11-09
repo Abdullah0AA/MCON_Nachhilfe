@@ -1,0 +1,23 @@
+{
+  "configurations": [
+      {
+          "name": "PIC_xc8",
+          "includePath": [
+              "${workspaceFolder}/**",
+              "C:/Program Files/Microchip/xc8/v2.40/pic/include",
+              "C:/Program Files/Microchip/xc8/v2.40/pic/include/proc",
+              "C:/Program Files/Microchip/xc8/v2.40/pic/include/legacy",
+              "C:/Program Files/Microchip/xc8/v2.40/pic/include/c99"
+              
+          ],
+
+          
+          "compilerPath": "C:/Program Files/Microchip/xc8//v2.40/pic/bin/clang",
+          "cStandard": "c99",
+          "cppStandard": "gnu++17",
+          "intelliSenseMode": "${default}",
+          "configurationProvider": "ms-vscode.makefile-tools"
+      }
+  ],
+  "version": 4
+}
