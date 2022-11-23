@@ -3,14 +3,15 @@
     "stdint.h": "c",
     "lib.h": "c",
     "xc.h": "c",
-    "pic18f25k22.h": "c"
+    "pic18f25k22.h": "c",
+    "pic18f24k22.h": "c"
   },
   "C_Cpp_Runner.msvcBatchPath": "",
-  "C_Cpp_Runner.cCompilerPath": "C:/MinGW/bin/gcc.exe",
+  "C_Cpp_Runner.cCompilerPath": "C:/Program Files/Microchip/xc8/v2.40/pic/bin/clang.exe",
   "C_Cpp_Runner.cppCompilerPath": "g++",
   "C_Cpp_Runner.debuggerPath": "gdb",
-  "C_Cpp_Runner.cStandard": "",
-  "C_Cpp_Runner.cppStandard": "",
+  "C_Cpp_Runner.cStandard": "c99",
+  "C_Cpp_Runner.cppStandard": "gnu++17",
   "C_Cpp_Runner.useMsvc": false,
   "C_Cpp_Runner.warnings": [
     "-Wall",
@@ -21,7 +22,12 @@
   "C_Cpp_Runner.warningsAsError": false,
   "C_Cpp_Runner.compilerArgs": [],
   "C_Cpp_Runner.linkerArgs": [],
-  "C_Cpp_Runner.includePaths": [],
+  "C_Cpp_Runner.includePaths": [
+    "C:/Program Files/Microchip/xc8/v2.40/pic/include",
+    "C:/Program Files/Microchip/xc8/v2.40/pic/include/proc",
+    "C:/Program Files/Microchip/xc8/v2.40/pic/include/legacy",
+    "C:/Program Files/Microchip/xc8/v2.40/pic/include/c99"
+  ],
   "C_Cpp_Runner.includeSearch": [
     "*",
     "**/*"

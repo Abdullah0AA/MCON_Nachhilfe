@@ -3,22 +3,13 @@
   "configurations": [
     {
       "name": "C/C++ Runner: Debug Session",
-      "type": "cppdbg",
+      "type": "cppvsdbg",
       "request": "launch",
       "args": [],
       "stopAtEntry": false,
-      "externalConsole": true,
+      "console": "externalTerminal",
       "cwd": "e:/MCON_Nachhilfe/LABs",
-      "program": "e:/MCON_Nachhilfe/LABs/build/Debug/outDebug",
-      "MIMode": "gdb",
-      "miDebuggerPath": "gdb",
-      "setupCommands": [
-        {
-          "description": "Enable pretty-printing for gdb",
-          "text": "-enable-pretty-printing",
-          "ignoreFailures": true
-        }
-      ]
+      "program": "e:/MCON_Nachhilfe/LABs/build/Debug/outDebug"
     }
   ]
 }
